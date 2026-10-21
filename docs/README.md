@@ -60,6 +60,7 @@ navigation.
 | [fuzzing](fuzzing.md)                                                    | How the fuzz targets run continuously, and how a crash becomes a committed regression seed.         |
 | [soak](soak.md)                                                          | The reported batch signing soak run: what each round asserts, and how its tolerances were measured. |
 | [parity](parity.md)                                                      | What agreement across implementations does and does not establish.                                  |
+| [rpc-fixtures](rpc-fixtures.md)                                          | How real RPC request/response pairs are recorded, scrubbed and replayed offline.                    |
 | [differential fuzzing](../testdata/differential/README.md)               | How random entries are checked across the Go, JS and Python implementations.                        |
 | [frozen divergences](../testdata/differential/regressions/README.md)     | The regression corpus of cases the implementations once disagreed on.                               |
 | [frozen vectors](../testdata/frozen/README.md)                           | The cross-version frozen vector set that must never be regenerated.                                 |
